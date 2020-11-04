@@ -1,0 +1,210 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+#body-div {
+    display: flex;
+    height: 95%;
+    width: 95%;
+    min-width: 500px;
+    flex-direction: row;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Teacher page Navigation */
+#teacher-navigation {
+    width: 180px;
+    height: 100%;
+    background-color:  #6CC5DA;
+}
+
+#teacher-navigation span {
+    width: 100%;
+    height: 2em;
+    background: #269BB6;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 2em;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    height: 200px;
+    margin: 0;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
+ul li {
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+ul li:hover {
+    background-color: #269BB6;
+}
+
+.active {
+    background-color: #269BB6;
+}
+
+/* Teacher page Main part */
+#main-part {
+    flex: 1;   
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 1. head */
+#main-part-head {
+    height: 48px;
+    width: 100%;
+    background-color: #6CC5DA;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#notification, #chat {
+    height: 16px;
+    width: 16px;
+    margin: 16px;
+}
+
+#name {
+    height: 16px;
+    font-size: 16px;
+    margin: 16px;
+    color: white;
+}
+
+#profile {
+    height: 24px;
+    width: 24px;
+    margin: 12px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+/* 2. contents */
+.contents {
+    flex: 1;
+    width: 95%;
+    height: 90%;
+    background-color: white;
+    left: 0;
+    right: 0;
+    margin: 5% auto;
+    position: relative;
+}
+
+/* contents - first 3 pages */
+.first-3-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.first-3-page-head {
+    height: 3.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.first-3-page-head-1 {
+    display: flex;
+    justify-content: space-between;
+    height: 1.6em;
+}
+
+.first-3-page-head-2 {
+    display: flex;
+    justify-content: flex-end;
+    height: 18px;
+}
+
+.first-3-page-body {
+    background-color: white;
+    flex: 1;
+}
+
+/* Student */
+#students {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+#students-head {
+    height: 3.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#head-7 {
+    display: flex;
+    justify-content: space-between;
+    height: 1.6em;
+}
+
+#students-body {
+    background-color: white;
+    flex: 1;
+}
+
+#students-list {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#students-list tr td, #students-list tr th {
+    word-break: break-word;
+    text-align: left;
+}
+
+/* add student */
+#add-student-window {
+    width: 500px;
+    height: 400px;
+    z-index: 10;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    visibility: hidden;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+} 
+
+#add-student-window label, #add-student-window section {
+    padding:0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.student-detail-button:hover {
+    background-color: gray !important;
+    color: white !important;
+}

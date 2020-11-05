@@ -1,6 +1,6 @@
 ## README
 
-This app was made as a project for ASD students to use in classrooms to promote communicative and collabprative skills for long term benefits.
+This app was made as a project for ASD students to use in classrooms to promote communicative and collaborative skills for long term benefits.
 
 ##### <div align="right">*Cite or git this project must have a reference*</div>
 
@@ -8,7 +8,7 @@ This app was made as a project for ASD students to use in classrooms to promote 
 
 [Fableous-Homepage(index)](https://s4523761-fableous.uqcloud.net/index/index.php)
 
-#### Other pages (need to login)：
+#### Other pages (login required)：
 
 [Canvas (Drawing)](https://s4523761-fableous.uqcloud.net/index/Canvas/index.php)
 
@@ -16,7 +16,7 @@ This app was made as a project for ASD students to use in classrooms to promote 
 
 [Class Library](https://s4523761-fableous.uqcloud.net/index/Canvas/library.php)
 
-[Homepage (for student)](https://s4523761-fableous.uqcloud.net/index/Canvas/home.php)
+[Homepage (for students)](https://s4523761-fableous.uqcloud.net/index/Canvas/home.php)
 
 [Teacher](https://s4523761-fableous.uqcloud.net/index/Canvas/teacher.php)
 
@@ -25,20 +25,20 @@ This app was made as a project for ASD students to use in classrooms to promote 
 #### 1. Homepage:
 
 - signup: inputs (email, password, confirm password, select role: teacher/student).
-- login: student login to student's homepage, teacher login to teacher page.
+- login: student login to student's homepage, teacher login to teacher's page.
 
 #### 2. Student Homepage:
 
 - add story: choose role,
-  - painter: enter to the Canvas Painter page.
-  - storyteller: enter to the Canvas Story teller page.
-- library: enter to the class library exposed to all students.
+  - painter: enter the Canvas Painter page.
+  - storyteller: enter the Canvas Story teller page.
+- library: enter the class library, shared between all students.
 
 ##### 2.1 Canvas pages (shared):
 
 - Painter page: a shared drawing canvas.
   - line: draw different color/size lines.
-  - eraser: erase function, can adjust size.
+  - eraser: erase function, size can be adjusted.
   - shapes: draw different color/size shapes.
     - rectangle: draw a rectangle
     - triangle: draw a triangle
@@ -58,13 +58,13 @@ This app was made as a project for ASD students to use in classrooms to promote 
 
 * search: search the book(s) by author's name.
 * browsing book:
-  * Listen to the story: listen the story of the picture.
+  * Listen to the story: listen to the story of the picture.
   * rename: rename the book.
   * delete: delete the book.
 
 #### 3. Teacher Portal
 
-In the teacher's page, teacher can also edit the book as the functions that in the student's class library(rename, delete, close)
+In the teacher's page, teachers can also edit the book with the functions that are in the student's class library(rename, delete, close)
 
 * class library: the story(-ies) of the class.
 * waiting approval: the story(-ies) which is/are waiting to be approved.
@@ -77,6 +77,6 @@ In the teacher's page, teacher can also edit the book as the functions that in t
   
   * add students: add new student
   
-  (Now, the student list is just a static list, does not connect to the database due to the limit of time. That a basic implement of static data, once it is connect to the database, we can implement that in similar way.)
+  (Now, the student list is just a static list, and it does not connect to the database due to the limit of time in development. That a basic implement of static data, once it is connected to the database, we can implement it in a similar way.)
 
 <div align="right">Oct/29/2020</div>

@@ -77,6 +77,6 @@ In the teacher's page, teachers can also edit the book with the functions that a
   
   * add students: add new student
   
-  (Now, the student list is just a static list, and it does not connect to the database due to the limit of time in development. That a basic implement of static data, once it is connected to the database, we can implement it in a similar way.)
+  (Currently the student list is just a static list and it does not connect to the database due to time constraints in project development. It is just a basic implementation of static data, but once it is connected to the database, it can be implemented in a similar way.)
 
-<div align="right">Oct/29/2020</div>
+

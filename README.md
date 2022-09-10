@@ -6,6 +6,14 @@ This app was made as a project for ASD students to use in classrooms to promote 
 
 ## Installation
 
+### Requirements/dependencies
+
+`Fableous` requires (to set up and run): 
+- XAMPP version 7.x or 8.x (to download apache, mysql, phpmyadmin)
+- Node.js version 12.x.x >= 12.13.0 | 14.x.x >= 14.15.0 | 16.0.0 or higher  
+
+### Installation steps
+
 Fork/clone to your project directory:
 
 ```sh
